@@ -1,0 +1,21 @@
+body {
+	background-image: url(../images/background.jpg)
+}
+.hero {
+	display: inline-block;
+	background-color: gray;
+}
+.hero img {
+	height: 200px;
+	width: 170px;
+}
+
+.hero p {
+	text-align: center;
+	color: white;
+	font-family: 'Roboto Slab', serif;	
+}
+
+.hero p.health {
+	color: red;
+}
