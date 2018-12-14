@@ -2,6 +2,7 @@ body {
 	background-image: url(../images/background.jpg)
 }
 .hero {
+	margin-top: 10px;
 	display: inline-block;
 	background-color: gray;
 }
@@ -18,4 +19,21 @@ body {
 
 .hero p.health {
 	color: red;
+}
+
+div#playerCard div.hero {
+	position: relative;
+	left: 50%;
+}
+
+#botCards button {
+	display: none;
+}
+
+button {
+	display: block;
+}
+
+h1 {
+	color: white;
 }
